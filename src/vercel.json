@@ -1,0 +1,14 @@
+{
+    "version":2,
+    "build":[{
+        "src":"src/index.jsgit",
+        "use":"@vercel/node"
+    }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/"
+        }
+    ]
+}
